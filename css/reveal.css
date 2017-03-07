@@ -1166,7 +1166,6 @@ body {
 .reveal .overlay .viewport {
   position: absolute;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   top: 40px;
@@ -1363,3 +1362,117 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/**********************************************
+Custom Additions
+**********************************************/
+.reveal .slides ul {
+  list-style-type: none;
+  margin-left: 0; }
+
+.reveal .slides h1, .reveal .slides h2, .reveal .slides h3, .reveal .slides h4, .reveal .slides h5, .reveal .slides h6 {
+  margin: 0; }
+
+.reveal .slides section {
+  text-align: left; }
+  .reveal .slides section#one h1 span {
+    text-decoration: line-through;
+    font-size: .6em; }
+  .reveal .slides section#one p span {
+    display: inline-block;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
+  .reveal .slides section#one article {
+    margin: 5% 0;
+    font-size: .7em; }
+    .reveal .slides section#one article ul {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+  .reveal .slides section.see-think-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto; }
+    .reveal .slides section.see-think-1 header {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .reveal .slides section.see-think-1 header h1 {
+        margin: 0; }
+      .reveal .slides section.see-think-1 header ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 30%;
+        font-size: .5em; }
+    .reveal .slides section.see-think-1 article {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 5%; }
+      .reveal .slides section.see-think-1 article p {
+        font-size: .5em;
+        margin: 0;
+        margin-top: 5%; }
+  .reveal .slides section.see-think-2 {
+    padding: 0;
+    border: 2px solid white; }
+    .reveal .slides section.see-think-2 header {
+      border: 2px solid white; }
+      .reveal .slides section.see-think-2 header h1 {
+        border: 2px solid white; }
+      .reveal .slides section.see-think-2 header ul {
+        border: 2px solid white; }
+        .reveal .slides section.see-think-2 header ul li {
+          border: 2px solid white; }
+    .reveal .slides section.see-think-2 article {
+      border: 2px solid white; }
+      .reveal .slides section.see-think-2 article h4 {
+        border: 2px solid white; }
+      .reveal .slides section.see-think-2 article p {
+        border: 2px solid white; }
