@@ -1375,17 +1375,17 @@ Custom Additions
 
 .reveal .slides section {
   text-align: left; }
-  .reveal .slides section#one h1 span {
+  .reveal .slides section:nth-of-type(1) h1 span {
     text-decoration: line-through;
     font-size: .6em; }
-  .reveal .slides section#one p span {
+  .reveal .slides section:nth-of-type(1) p span {
     display: inline-block;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1); }
-  .reveal .slides section#one article {
+  .reveal .slides section:nth-of-type(1) article {
     margin: 5% 0;
     font-size: .7em; }
-    .reveal .slides section#one article ul {
+    .reveal .slides section:nth-of-type(1) article ul {
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
