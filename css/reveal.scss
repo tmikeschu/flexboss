@@ -1549,6 +1549,22 @@ Custom Additions
 					}
 				}
 			}
+			&:last-of-type {
+				.closing {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					width: 100%;
+					div {
+						ul {
+							margin: 5% 0;
+						}
+					}
+				}
+			}
+			.nav {
+				display: none;
+			}
 		}
 	}
 }

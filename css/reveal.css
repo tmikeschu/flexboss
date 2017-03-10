@@ -1476,3 +1476,19 @@ Custom Additions
         border: 2px solid white; }
       .reveal .slides section.see-think-2 article p {
         border: 2px solid white; }
+  .reveal .slides section:last-of-type .closing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+    .reveal .slides section:last-of-type .closing div ul {
+      margin: 5% 0; }
+  .reveal .slides section .nav {
+    display: none; }
