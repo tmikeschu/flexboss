@@ -1491,4 +1491,6 @@ Custom Additions
     .reveal .slides section:last-of-type .closing div ul {
       margin: 5% 0; }
   .reveal .slides section .nav {
-    display: none; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
